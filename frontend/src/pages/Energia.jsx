@@ -1,6 +1,8 @@
 import React from "react";
 import EnergySummary from "../components/energypage/EnergySummary";
 import EnergyTempPot from "../components/energypage/EnergyTempPot";
+import EnergyEfficiencyByHour from "../components/energypage/EnergyEfficiencyByHour";
+import EnergyEvolution from "../components/energypage/EnergyEvolution";
 
 export default function Energia() {
   return (
@@ -14,6 +16,8 @@ export default function Energia() {
       <div className="grid auto-rows-auto gap-6">
         <EnergySummary />
         <EnergyTempPot />
+        <EnergyEfficiencyByHour />
+        <EnergyEvolution />
       </div>
     </main>
   );
